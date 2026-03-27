@@ -1,0 +1,1 @@
+// full day2 functions code
