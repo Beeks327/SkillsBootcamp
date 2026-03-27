@@ -1,1 +1,1 @@
-BankApp React Project
+DOM Exercises
