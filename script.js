@@ -1,1 +1,1 @@
-// Full DOM script from earlier
+// selectors code
