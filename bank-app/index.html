@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banking App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Bank Account App</h1>
+<div>
+  <input id="acc" placeholder="Account Number">
+  <input id="name" placeholder="Owner Name">
+  <input id="email" placeholder="Owner Email">
+  <input id="bal" placeholder="Initial Balance" type="number">
+  <button onclick="createAccount()">Create Account</button>
+</div>
+<div>
+  <input id="amt" placeholder="Amount" type="number">
+  <button onclick="deposit()">Deposit</button>
+  <button onclick="withdraw()">Withdraw</button>
+</div>
+<pre id="output"></pre>
+<script src="script.js"></script>
+</body>
+</html>
