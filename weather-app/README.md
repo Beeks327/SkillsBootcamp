@@ -1,20 +1,14 @@
-# Weather Interface
+# Exercise 3 – Weather App (React via CDN)
 
-## Overview
-A simple weather UI built using HTML, CSS and JavaScript to practise layout, styling and basic interactivity.
+Two ways to load data:
 
-## Features
-- Responsive layout  
-- Clear visual structure  
-- Weather display interface  
+1) **Open index.html directly** → Uses inline JSON inside a `<script type="application/json">` tag.
+2) **From `weather.json`** → Requires a local server (browsers block `fetch` from `file://`).
 
-## What I Learned
-- Writing semantic HTML  
-- Structuring CSS for readability  
-- Building responsive layouts  
-- Improving UI clarity  
+### Run a quick local server (pick one):
+- Python 3: `python -m http.server 5173`
+- Node (npx): `npx serve .`
 
-## Tech Used
-- HTML  
-- CSS  
-- JavaScript  
+Then browse to the folder and open `index.html`.
+
+When you’re ready to use a real API later, add `useEffect` with `async/await` to fetch from a weather API endpoint.

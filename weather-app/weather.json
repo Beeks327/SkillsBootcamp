@@ -1,0 +1,9 @@
+{
+  "location": { "city": "Bristol", "country": "UK" },
+  "current": { "temp_c": 12, "condition": "Partly cloudy", "humidity": 67, "wind_kph": 15 },
+  "forecast": [
+    { "day": "Sat", "max": 13, "min": 7, "text": "Cloudy" },
+    { "day": "Sun", "max": 14, "min": 8, "text": "Light rain" },
+    { "day": "Mon", "max": 12, "min": 6, "text": "Sunny intervals" }
+  ]
+}

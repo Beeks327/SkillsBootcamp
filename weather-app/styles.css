@@ -1,0 +1,17 @@
+:root { --bg:#0f172a; --panel:#0b1220; --text:#e5e7eb; --muted:#9aa5b1; --accent:#38bdf8; --border:#1f2a44 }
+*{ box-sizing:border-box }
+body{ margin:0; font-family: system-ui, Arial, sans-serif; color:var(--text); background:var(--bg) }
+.container{ max-width:800px; margin: 1.5rem auto; padding: 0 1rem; }
+h1{ margin:.2rem 0 1rem; }
+.panel{ background:linear-gradient(180deg, #0e1a2d, #0b1220); border:1px solid var(--border); border-radius:16px; padding:1rem; box-shadow: 0 10px 30px rgba(0,0,0,.3); }
+.header{ display:flex; justify-content:space-between; align-items:center; margin-bottom:.6rem }
+.header .place{ font-weight:700 }
+.header .now{ color:var(--muted) }
+.current{ display:flex; gap:1.2rem; align-items:flex-end; }
+.temp{ font-size:3rem; font-weight:800; color:var(--accent) }
+.details{ color:var(--muted) }
+.forecast{ margin-top:1rem; display:grid; grid-template-columns: repeat(3, 1fr); gap:.6rem }
+.card{ background:#0c1326; border:1px solid var(--border); border-radius:12px; padding:.7rem; text-align:center }
+.card .day{ font-weight:700 }
+.card .range{ color:var(--muted) }
+.note{ color:var(--muted); font-size:.9rem; margin-top:.8rem }
