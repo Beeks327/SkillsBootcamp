@@ -1,2 +1,0 @@
-# Actisure-Lite
-Starter scaffold.
