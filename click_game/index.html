@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Click Game</title>
+<style>
+#box {width:100px;height:100px;background:red;position:absolute;cursor:pointer;}
+</style></head>
+<body>
+<h1>Click the moving box!</h1>
+<div id='box'></div>
+<script>
+const box=document.getElementById('box');
+let score=0;
+function move(){
+  box.style.left = Math.random()* (window.innerWidth-100)+'px';
+  box.style.top = Math.random()* (window.innerHeight-100)+'px';
+}
+box.onclick = ()=>{ score++; move(); console.log('Score:',score); }
+move();
+</script>
+</body>
+</html>
